@@ -1,5 +1,3 @@
-# toDoApp.py
-
 def remove_task(self, task_number):
     """
     Remove task/s from the to-do list by number.
