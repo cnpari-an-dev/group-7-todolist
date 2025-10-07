@@ -1,6 +1,13 @@
 # toDoApp.py
 
 class Task:
+    """
+    Represents a single to-do task.
+
+    Attributes:
+        description (str): The text description of the task.
+        completed (bool): Indicates whether the task is marked as done (default is False).
+    """
 
     """
         Represents a single to-do task.
@@ -17,10 +24,13 @@ class Task:
     def __str__(self):
         return self.description
 
-        """
+
+"""
             Fixed a few indentations to improve readability for further modification
-            
-        """
+
+    """
+
+
 def addtask(task):
     tasks.append(task)
     print("task added!")
