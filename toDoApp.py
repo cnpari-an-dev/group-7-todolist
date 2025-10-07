@@ -2,7 +2,16 @@
 
 class Task:
 
-    def __init__(self, description: str):
+
+"""
+    Represents a single to-do task.
+
+    Attributes:
+        description (str): The text description of the task.
+        completed (bool): Indicates whether the task is marked as done (default is False).
+    """
+
+   def __init__(self, description: str):
         self.description = description.strip()
 
     def __str__(self):
